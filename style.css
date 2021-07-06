@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Nav bar start */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: bold;
+  color: brown;
+  margin-bottom: 89px;
+  font-size: 4rem;
+  margin-top: 44px;
+}
+
+/* food container start */
+.orange-color {
+  color: orange;
+}
+
+.flexible-container {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.half-width {
+  width: 50%;
+  padding-left: 5%;
+}
+
+.half-width img {
+  width: 52%;
+  margin-left: 95px;
+  margin-top: 62px;
+}
+
+.half-width p {
+  font-size: 1rem;
+  color: gray;
+  text-align: justify;
+  margin-bottom: 100px;
+  margin-right: 60px;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, red);
+  color: white;
+  font-weight: 700;
+  padding: 20px 40px;
+  border-radius: 30px;
+  box-shadow: 0px 5px 35px 0px rgb(182 137 90);
+}
+
+.top-banner {
+  background-image: url(./shapes/top-banne.png);
+  background-repeat: no-repeat;
+}
+
+.dream-big {
+  background-image: url(./shapes/7.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/* food container end */
+
+/* My recipies start */
+.recipie-describsition h2 {
+  text-align: center;
+  color: #2a2020a6;
+  font-size: 50px;
+}
+
+.recipie-describsition p {
+  font-size: 15px;
+  width: 485px;
+  margin: 10px auto;
+}
+
+.card-desc {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-content {
+  width: 330px;
+  height: 412px;
+  text-align: center;
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 32px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.card-content img {
+  justify-content: center;
+  text-align: center;
+  width: 302px;
+  height: 240px;
+  padding: 7px;
+  border-radius: 32px;
+}
+
+.card-content h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.card-content p {
+  margin: -21px 1px;
+  font-size: 13px;
+}
+/* My recipies end */
+
+/* my ratting start */
+#my-ratting {
+  display: flex;
+  justify-content: space-around;
+  width: 91%;
+  height: 169px;
+  background: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+  margin: 52px auto;
+}
+/* my ratting end */
+
+/* food gallery start */
+.food-gallery h2 {
+  margin-bottom: 12px;
+  margin-left: 10px;
+}
+
+.food-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.food-item img {
+  width: 350px;
+  padding: 10px;
+}
+/* food gallery start */
+
+.end-footer {
+  background-color: black;
+  width: 100%;
+  height: 159px;
+}
+
+.end-footer h2 {
+  text-align: center;
+  padding-top: 38px;
+  color: rgba(255, 0, 0, 0.445);
+}
+
+#food {
+  color: red;
+}
+
+.end-footer {
+  text-align: center;
+  color: white;
+}
