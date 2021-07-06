@@ -48,7 +48,8 @@ h3 {
 }
 
 .half-width img {
-  width: 52%;
+  width: 83%;
+  /* width: 52%; */
   margin-left: 95px;
   margin-top: 62px;
 }
@@ -92,7 +93,7 @@ h3 {
 
 .recipie-describsition p {
   font-size: 15px;
-  width: 485px;
+  width: 532px;
   margin: 10px auto;
 }
 
@@ -154,7 +155,7 @@ h3 {
 /* food gallery start */
 .food-gallery h2 {
   margin-bottom: 12px;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
 .food-item {
